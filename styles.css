@@ -1,0 +1,394 @@
+body {
+  background-color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+h1 {
+  color: green;
+  font-size: 3.5rem;
+  font-family: "Kanit";
+  font-weight: 400;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: green;
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 10px 200px 10px;
+}
+
+hr {
+  margin-top: 0%;
+  margin-bottom: 18px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-family: 'Kanit';
+  font-weight: 300;
+  font-size: 1.1rem
+}
+
+a:hover {
+  color: inherit;
+}
+
+/* Heading Section */
+
+#Title {
+  background-color: #fff;
+}
+
+.container-fluid {
+  margin: auto;
+  padding: 5px 8px;
+}
+
+.nav-top {
+  padding: 0px 8px;
+}
+
+.nav-uz-yuk {
+  font-family: "Kanit";
+  padding: 0px;
+  margin-left: 5px;
+}
+
+.main-font {
+  margin: 0px;
+  text-decoration: none!important;
+}
+
+.hr-top {
+margin: 0px;
+}
+
+.nav-option {
+  padding: 16px;
+}
+
+/* Options Section */
+
+.active {
+  padding-right: 12px;
+  background-color: green;
+  border-radius: 30px;
+  /* font-weight: bold; */
+}
+
+/* Options Section end */
+
+.logo {
+  width: 150px;
+}
+
+.nav-link {
+  color: green;
+}
+
+.nav-link.active {
+  color: #fff;
+}
+
+.table-heading {
+margin-left: auto;
+margin-right: auto;
+}
+
+.heading {
+  font-size: 4rem;
+  color: green;
+  font-family: "Montserrat";
+}
+
+/* Search box section */
+
+.search-box {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 5rem 5rem;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.search {
+  width: 60%;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 30px;
+  display: flex;
+}
+
+.search-input {
+  background-color: white;
+  padding: 1.3rem;
+  border: 2px solid green;
+  border-radius: 20px;
+  flex-grow: 1;
+  font-size: 1.1rem;
+  line-height: normal;
+}
+
+.search-btn {
+  margin-left: 5px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border: 0;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  width: max-content;
+  flex-shrink: 0;
+  box-shadow: 5px 5px 5px lightblue;
+}
+
+.search-btn:hover {
+  background-color: red;
+}
+
+/* Introduction section*/
+
+#Tanishuv {
+
+}
+
+ /* Conatiner section*/
+
+.container {
+  width: 1025px;
+  height: 1040px;
+  border: none;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.col {
+  width: 320px;
+  height: 500px;
+  background-color: #fff;
+  float: left;
+  border: 1px solid #90EE90;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+  /* box-shadow: 5px 5px 5px lightblue; */
+  box-shadow: 0 13px 30px rgb(0 0 0 / 11%);
+}
+
+.tanishuv-heading1 {
+  padding: 30px 30px 10px;
+}
+
+.tanishuv-paragraph {
+  margin: 0px;
+  font-size: 0.9rem;
+}
+
+.t-image {
+  width: 150px;
+}
+
+.post-image {
+  background-color: #90EE90;
+  border-radius: 20px;
+}
+
+.tanishuv-container {
+  position: relative;
+  padding: 10px 10px;
+  justify-content: center;
+}
+
+/* Container section end */
+
+.format {
+  text-align: center;
+  width: 130px;
+  margin: 30px 0px;
+}
+
+.format-section {
+  padding: 30px;
+  margin-top: 80px;
+}
+
+#wrap {
+  min-width: 640px;
+}
+
+.button-2 {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px 0px 60px;
+}
+
+.btn-2 {
+  background-color: green;
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px lightblue;
+}
+
+.btn-2:hover {
+  background-color: red;
+}
+
+/* User Features Section */
+
+#Qollanma {
+  padding: 30px;
+}
+
+/* Q-Container section */
+
+.q-container {
+  width: 840px;
+  height: 300px;
+  border: none;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.row {
+  width: 250px;
+  height: 250px;
+  border: none;
+  border-radius: 30px;
+  margin: 10px 10px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+}
+
+.qollanma-img {
+  width: 130px;
+  height: 130px;
+  margin-left: 47px;
+}
+
+.YT {
+  color: red;
+}
+
+/* Q-A Section */
+
+#Savol-javob {
+  padding: 30px;
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+.question-answer {
+  padding: 0px 200px;
+}
+
+.Q-A-div {
+  text-align: left;
+  padding: 10px;
+}
+
+.Q-A-p {
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* Contacts Section */
+
+#Contacts {
+  margin: 0px auto;
+}
+
+.aloqa-section {
+  text-align: center;
+  background-color: green;
+  padding: 2% 10% 0.1%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.80rem;
+  font-family: "Montserrat";
+  padding: 20px 0;
+}
+
+/* Phone Version Section */
+
+@media (max-width: 640px) {
+  body {
+    text-align: center;
+    align-items: center;
+  }
+
+  p {
+    margin: 20px 20px 50px;
+  }
+
+  .list-header-2 {
+    text-align: center;
+    height: 260px;
+    width: 600px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .list-group-2 {
+    line-height: 20px;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+  }
+
+  .search-box {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 0px 5% 10px;
+    background-color: white;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 500px;
+    height: 250px;
+    border: none;
+    margin-left: 70px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+
+
+
+  .q-container {
+    width: 500px;
+    height: 150px;
+    border: none;
+    margin-left: 70px;
+    padding: 10;
+  }
+
+  .question-answer {
+    padding: 0px 50px;
+  }
+
+}
